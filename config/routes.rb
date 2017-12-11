@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-
-  devise_for :users
   resources :articles do
     resources :comments, only: [:create, :destroy, :update]
   end
+  devise_for :users
   # get "/articles" index
   # post "/articles" ceate
   # delete "/articles/:id" destroy

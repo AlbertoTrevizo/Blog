@@ -1,0 +1,9 @@
+I"q(function() {
+  functionName(function() {
+    console.log('hola');
+  });
+
+  functionName();
+
+}).call(this);
+:ET

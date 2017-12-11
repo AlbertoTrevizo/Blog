@@ -1,0 +1,11 @@
+I"¦(function() {
+  var functionName;
+
+  functionName = function(param, param2) {
+    console.log(param, param2);
+  };
+
+  functionName('hola ', 'mundo');
+
+}).call(this);
+:ET
