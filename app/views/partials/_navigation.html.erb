@@ -2,19 +2,18 @@
   <nav class="be-blue white large-padding">
     <ul class="no-list row center-xs middle-xs no-list">
       <li class="col-md">
-        <h1 class="no-margin" id="logo">Blog Trevizo</h1>
+        <h1 class="no-margin" id="logo"><%= link_to "Blog Trevizo", root_path %></h1>
       </li>
       <li class="col-md">
-        <%= link_to "Inicio", root_path %>
+        <%= link_to "Articulos", articles_path %>
       </li>
+      <% @categories.each do |category| %>
+        <li class="col-md">
+          <%= link_to category.name, category %>
+        </li>
+      <% end %>
       <li class="col-md">
         Diseño
-      </li>
-      <li class="col-md">
-        programacion
-      </li>
-      <li class="col-md">
-        Tecnología
       </li>
       <% if user_signed_in? %>
         <li class="col-md">
