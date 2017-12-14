@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 gem "devise"
 gem 'jquery-turbolinks'
 gem 'jquery-rails'
+gem "paperclip"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
