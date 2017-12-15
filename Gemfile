@@ -34,6 +34,7 @@ gem "devise"
 gem 'jquery-turbolinks'
 gem 'jquery-rails'
 gem "paperclip"
+gem "aasm"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
