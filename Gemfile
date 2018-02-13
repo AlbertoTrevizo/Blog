@@ -35,6 +35,7 @@ gem 'jquery-turbolinks'
 gem 'jquery-rails'
 gem "paperclip"
 gem "aasm"
+gem "will_paginate"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
