@@ -33,9 +33,11 @@ gem 'jbuilder', '~> 2.5'
 gem "devise"
 gem 'jquery-turbolinks'
 gem 'jquery-rails'
-gem "paperclip"
-gem "aasm"
-gem "will_paginate"
+gem 'paperclip'
+gem 'aasm'
+gem 'will_paginate'
+gem 'epic-editor-rails', :git => 'https://github.com/GioRosales/epic-editor-rails.git'
+gem 'sanitize'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
