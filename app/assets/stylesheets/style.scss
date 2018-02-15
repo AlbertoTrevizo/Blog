@@ -24,11 +24,29 @@ a,a:visited{
 .text-center{
   text-align: center;
 }
+.text-right{
+  text-align: right;
+}
+.text-justify{
+  text-align: justify;
+}
+.be-big{
+  font-size: 2em;
+}
+.be-small{
+    font-size: 12px;
+}
+.underline{
+  text-decoration: underline;
+}
 .red{
   color: #E74C3C !important;
 }
 .blue{
-  color: blue !important;
+  color: #66CCFF !important;
+}
+.gray{
+  color: #616161;
 }
 .be-blue{
   background-color: #24C2CB;
@@ -69,4 +87,7 @@ a,a:visited{
   display: block;
   padding: 10px 0px;
   font-size: 1.2em
+}
+.bottom-space{
+  margin-bottom: 2em;
 }
